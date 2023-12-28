@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Clean start
+
+Added a few extra configurations on initial setup for the purpose of this course
+
+tsconfig.json compiler options
+
+"noImplicitAny": true,
+"noImplicitReturns": true,
+
+eslintrc.json new rules
+"rules": {
+  "@next/next/no-img-element":"off",
+  "jsx-a11y/alt-text":"off"
+}
+
 ## Getting Started
 
 First, run the development server:
